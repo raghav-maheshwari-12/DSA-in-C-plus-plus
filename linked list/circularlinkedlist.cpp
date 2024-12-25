@@ -53,6 +53,7 @@ void insertNode(Node *&tail, int element, int d)
 void print(Node *tail)
 {
     Node *temp = tail;
+    //also traversing
     do
     {
         cout << tail->data << " ";
